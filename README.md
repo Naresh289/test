@@ -91,13 +91,15 @@ Make sure the following libraries are installed in your Python environment:
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/mortgage-default-risk.git
-Install the required libraries:
-bash
-Copy code
-pip install -r requirements.txt
-Run the Jupyter notebook credit_risk_modeling.ipynb to execute the model and analyze the results.
+2. Install the required libraries:
+   - pip install -r requirements.txt
+3. Run the Jupyter notebooks in sequence:
+   - credit_risk_data_creation.ipynb to create the required dataset.
+   - credit_risk_data_EDA.ipynb to explore the dataset.
+   - credit_risk_modeling.ipynb to execute feature engineering, selection, model training and analyze the results.
+
 📈 Conclusion
-This project demonstrates the process of building a mortgage default risk prediction model, from data preprocessing and feature engineering to model development and evaluation. The final model helps assess the likelihood of mortgage defaults and provides valuable insights for financial decision-making. 💡
+This project demonstrates the process of building a mortgage default risk prediction model, from data creation, data preprocessing and feature engineering to model development and evaluation. The final model helps assess the likelihood of mortgage defaults and provides valuable insights for financial decision-making. 💡
 
 💡 Business Use Cases
 Risk Assessment: Assist financial institutions in identifying high-risk borrowers.
