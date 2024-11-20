@@ -9,12 +9,9 @@ This project focuses on building a predictive model for **mortgage default risk*
 The dataset used in this project is a **Synthetic Mortgage Performance Dataset**, containing the following key features:
 
 - **Loan ID**: Unique identifier for each loan.
-- **Borrower Age**: Age of the borrower.
-- **Income Level**: Annual income of the borrower.
+- **Income**: Annual income of the borrower.
 - **Credit Score**: Credit score of the borrower.
 - **Loan Amount**: Total loan amount.
-- **Property Value**: Value of the property being mortgaged.
-- **Loan-to-Value Ratio**: Ratio of the loan amount to the property value.
 - **Employment Status**: Borrower's employment status.
 - **Payment History**: History of loan payments.
 - **Economic Indicators**: Various macroeconomic factors like GDP growth, unemployment rate, etc.
