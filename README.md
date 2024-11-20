@@ -89,7 +89,7 @@ Make sure the following libraries are installed in your Python environment:
    ```bash
    git clone https://github.com/yourusername/mortgage-default-risk.git
 2. Install the required libraries:
-   - pip install -r requirements.txt
+   - pip install -r credit_risk_requirements.txt
 3. Run the Jupyter notebooks in sequence:
    - credit_risk_data_creation.ipynb to create the required dataset.
    - credit_risk_data_EDA.ipynb to explore the dataset.
